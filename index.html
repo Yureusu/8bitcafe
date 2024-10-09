@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-bit Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="@768.css">
+    <link rel="stylesheet" href="@480.css">
+    <link rel="icon" type="image/x-icon" href="icecoffee.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <span src="openNav" id="open-side">
+            <img src="menu.png" id="open-img">
+        </span>
+        <div id="brand-wrapper">
+            <a href="#" id="brand" style="text-decoration: none;">
+                <img src="icecoffee.png" id="brand-logo">
+            </a>
+            <a href="#" id="brand-text" style="text-decoration: none;">8-bit Cafe</a>
+        </div>
+        <span id="header-space"></span>
+        <div id="search-wrapper">
+            <input type="search" placeholder="Search..." id="search-box">
+                <span onclick="searchBtn" id="search-button" style="text-decoration: none;">
+                    <img src="search.png" id="button-img">
+                </span>
+            </input>
+        </div>
+        <a href="" id="cart" style="text-decoration: none;">
+            <img src="cart.png" id="cart-img">
+        </a>
+    </div>
+    <div class="content">
+        <div id="promo-content">
+            <span id="logo-span">
+                <a href="#" style="text-decoration: none;">
+                    <img src="fb-logo.png" alt="" id="float-logo">
+                </a>
+                <a href="#" style="text-decoration: none;">
+                    <img src="insta-logo.png" alt="" id="float-logo">
+                </a>
+                <a href="#" style="text-decoration: none;">
+                    <img src="x-logo.png" alt="" id="float-logo">
+                </a>
+                <a href="#" style="text-decoration: none;">
+                    <img src="mess-logo.png" alt="" id="float-logo">
+                </a>
+            </span>
+            <div id="promo-wrapper">
+                <div id="main-promo">
+                    <img src="promo-cup.png" id="promo-img">
+                </div>
+            </div>
+            <div id="text-wrapper">
+                <div id="promo-text">
+                    <h1>Limited Offer</h1>
+                    <h3>Free 40oz 8-bit Cup for your first purchase.</h3>
+                </div>
+            </div>
+            <span id="letter-span">
+                <a href="#" style="text-decoration: none;">
+                    <p>Subscribe To Our News Letter</p>
+                    <img src="news-letter.png" alt="" id="letter-logo">
+                    <p>To Get 20% Off Voucher</p>
+                </a>
+            </span>
+        </div>
+        <div id="seller-text">
+            <h1>Our Best Sellers</h1>
+        </div>
+        <div id="best-wrapper">
+            <div id="best-seller1">
+                <h1 id="best-product">Iced Coffee</h1>
+                <img src="coffee.png" id="best-img">
+                <a href="#" id="best-btn" style="text-decoration: none;">Buy Now</a>
+            </div>
+            <div id="best-seller2">
+                <h1 id="best-product">Taro Milktea</h1>
+                <img src="taro-milktea.png" id="best-img">
+                <a href="#" id="best-btn" style="text-decoration: none;">Buy Now</a>
+            </div>
+            <div id="best-seller3">
+                <h1 id="best-product">Matcha Praf</h1>
+                <img src="matcha-praf.png" id="best-img">
+                <a href="#" id="best-btn" style="text-decoration: none;">Buy Now</a>
+            </div>
+            <div id="best-seller4">
+                <h1 id="best-product">Choco <br>Halo-Halo</h1>
+                <img src="choco-halohalo.png" id="best-img">
+                <a href="#" id="best-btn" style="text-decoration: none;">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <div id="view-more">
+        <a href="#" id="more-btn" style="text-decoration: none;"><h3>+</h3> <h1>+</h1> LOAD MORE <h1>+</h1> <h3>+</h3></a>
+    </div>
+    <div class="footer">
+        <div id="footer-box1">Something's here</div>
+        <div id="footer-box2">Something's here</div>
+        <div id="footer-box3">Something's here</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
