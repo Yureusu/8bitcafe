@@ -1,0 +1,228 @@
+@media screen and (max-width: 768px) {
+    body{
+        margin: 12px;
+    }
+    .header{
+        height: 40px;
+        padding: 6px;
+        width: inherit;
+        gap: 6px;
+    }
+    #open-side{
+        height: 36px;
+        width: 36px;
+    }
+    #open-img{
+        height: 36px;
+        width: 36px;
+    }
+    #brand-wrapper{
+        min-width: 0;
+    }
+    #brand{
+        height: 32px;
+        width: 32px;
+    }
+    #brand-logo{
+        height: 32px;
+        width: 32px;
+    }
+    #brand-text{
+        font-size: 2rem;
+        margin-left: 6px;
+        letter-spacing: 1px;
+    }
+    #header-space{
+        display: none;
+    }
+    #search-wrapper{
+        min-width: 180px;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    #search-button{
+        color: #E7D4B5;
+        margin-left: -2px;
+        padding: 4px;
+        border-radius: 0px 12px 12px 0px;
+    }
+    #button-img{
+        height: 20px;
+        width: 20px;
+    }
+    #search-box{
+        padding-block: 8px;
+        padding-inline: 8px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        min-width: 140px;
+        border-radius: 12px 0px 0px 12px;
+    }
+    #search-box::placeholder{
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    #cart{
+        padding: none;
+        margin-left: 0px;
+    } 
+    #cart-img{
+        height: 24px;
+        width: 24px;
+    }
+    #promo-content{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    @keyframes floatgrow{
+        0%{
+            width: 48px;
+            height: 48px;
+        }
+      
+        25%{
+            width: 49px;
+            height: 49px;
+        }
+        50%{
+            width: 50px;
+            height: 50px;
+        }
+        75%{
+            width: 49px;
+            height: 49px;
+        }
+        100%{
+            width: 48px;
+            height: 48px;
+        }
+    }
+    #logo-span{
+        flex-direction: row;
+        gap: 32px;
+        margin-top: -24px;
+        margin-bottom: 24px;
+    }
+    #letter-span, #letter-span a{
+        flex-direction: column;
+        font-size: 24px;
+    }
+    @keyframes lettergrow{
+        0%{
+            width: 80px;
+            height: 80px;
+        }
+      
+        25%{
+            width: 81px;
+            height: 81px;
+        }
+        50%{
+            width: 82px;
+            height: 82px;
+        }
+        75%{
+            width: 81px;
+            height: 81px;
+        }
+        100%{
+            width: 80px;
+            height: 80px;
+        }
+    }
+    #promo-wrapper, #text-wrapper{
+        padding-block: 6px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        min-height: 150px;
+        max-height: 150px;
+        min-width: 170px;
+        max-width: 170px;
+    }
+    #promo-img{
+        height:150px;
+        width: 150px;
+        animation: grow 2s linear infinite;
+        transition: 2s ease-in-out;
+    }
+    @keyframes grow{
+        0%{
+            width: 200px;
+            height: 200px;
+        }
+      
+        25%{
+            width: 205px;
+            height: 205px;
+        }
+        50%{
+            width: 210px;
+            height: 210px;
+        }
+        75%{
+            width: 205px;
+            height: 205px;
+        }
+        100%{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    #promo-text{
+        letter-spacing: 1px;
+        font-size: 14px;
+        width: 150px;
+        padding: 6px;
+    }
+    @keyframes bestgrow{
+        0%{
+            width: 102px;
+            height: 102px;
+        }
+      
+        25%{
+            width: 104px;
+            height: 104px;
+        }
+        50%{
+            width: 106px;
+            height: 106px;
+        }
+        75%{
+            width: 104px;
+            height: 104px;
+        }
+        100%{
+            width: 102px;
+            height: 102px;
+        }
+    }
+    #best-seller1, #best-seller2, #best-seller3, #best-seller4{
+        min-height: 240px;
+        max-height: 240px;
+        min-width: 240px;
+        max-width: 240px;
+        padding: 12px;
+    }
+    #best-product{
+        font-size: 30px;
+        margin-top: -12px;
+    } 
+    #best-img{
+        margin-top: 0px;
+    }
+    #seller-text{
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    #side-nav{
+        width: 80%;
+    }
+    #category-wrapper{
+        flex-direction: column;
+    }
+    #product-wrapper{
+        flex-direction: column;
+    }
+}

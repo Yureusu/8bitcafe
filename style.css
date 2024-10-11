@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "VT323", monospace;
+    height: auto;
 }
 .header{
     background-color: #705C53;
@@ -103,7 +104,7 @@ body{
 }
 /*Contents*/
 .content{
-    background-image: linear-gradient(to bottom, #E7D4B5, #A0937D);
+    background-image: linear-gradient(to bottom, #E7D4B5 , #A0937D 50%);
     width: inherit;
     height: inherit;
     display: flex;
@@ -119,6 +120,7 @@ body{
     width: 100%;
     flex-grow: 0;
     flex-shrink: 0;
+    flex-wrap: wrap;
 }
 #promo-wrapper, #text-wrapper{
     display: flex;
@@ -179,21 +181,6 @@ body{
     padding: 12px;
     text-align: center;
 }
-/*Best Sellers*/
-#seller-text{
-    border: 4px solid #E7D4B5;
-    font-family: "VT323", monospace;
-    letter-spacing: 2px;
-    font-size: 14px;
-    color: #705C53;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 12px;
-    text-align: center;
-}
 #float-logo{
     height: 64px;
     width: 64px;
@@ -238,6 +225,10 @@ body{
     align-items: center;
     gap: 12px;
 }
+#letter-span{
+    width: 200px;
+    justify-content: center;
+}
 #letter-span a{
     display: flex;
     flex-direction: column;
@@ -248,6 +239,7 @@ body{
 }
 #letter-logo{
     margin-block: -24px;
+    padding-inline: 24px;
     animation: lettergrow 2s linear infinite;
     transition: 2s ease-in-out;
 }
@@ -273,6 +265,20 @@ body{
         width: 100px;
         height: 100px;
     }
+}
+/*Best Sellers*/
+#seller-text{
+    border: 4px solid #E7D4B5;
+    font-family: "VT323", monospace;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #705C53;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
 }
 #best-wrapper{
     padding: 12px;
