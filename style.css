@@ -91,17 +91,6 @@ body{
     padding: 12px;
     flex: 4;
 }
-#cart{
-    padding: 6px;
-    justify-self: center;
-    align-items: center;
-    display: flex;
-    margin-left: -12px;
-} 
-#cart-img{
-    height: 36px;
-    width: 36px;
-}
 /*Contents*/
 .content{
     background-image: linear-gradient(to bottom, #E7D4B5 , #A0937D 50%);

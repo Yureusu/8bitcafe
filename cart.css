@@ -1,0 +1,14 @@
+#cart{
+    padding: 6px;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    margin-left: -12px;
+} 
+#cart-img{
+    height: 36px;
+    width: 36px;
+}
+#cart:hover{
+    filter: invert(48%) sepia(46%) saturate(455%) hue-rotate(335deg) brightness(95%) contrast(86%);
+}
