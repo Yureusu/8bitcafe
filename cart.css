@@ -3,6 +3,7 @@
     justify-self: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
     margin-left: -12px;
 } 
 #cart-img{
@@ -11,4 +12,8 @@
 }
 #cart-img:hover{
     filter: invert(48%) sepia(46%) saturate(455%) hue-rotate(335deg) brightness(95%) contrast(86%);
+}
+#cart-wrapper{
+    height: auto;
+    width: auto;
 }
